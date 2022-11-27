@@ -1,18 +1,18 @@
-.game-container{
-    display: flex;
-    min-height: 100vh;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+.game-container {
+  display: flex;
+  min-height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 0;
-
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 30px;
 }
 
@@ -52,8 +52,18 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.game-board {
+  justify-items: center;
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.game-info li {
+  padding-bottom: 5px;
 }
